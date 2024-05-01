@@ -1,0 +1,80 @@
+/* ==== import goole font-("Space Mono", monospace) ==== */
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+/* ==== global css start ==== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Space Mono", monospace;
+}
+/* ==== global css end ==== */
+/* ==== body css start ==== */
+body {
+  background-color: #6961e5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+/* ==== body css end ==== */
+/* ==== password box css start ==== */
+.container {
+  width: 320px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+}
+.container .password-box {
+  border: 1.3px solid #ccc;
+  width: 100%;
+  height: 45px;
+  border-radius: 7px;
+  align-items: center;
+  display: flex;
+  padding: 0px 10px;
+  margin-bottom: 15px;
+}
+.container .password-box input {
+  width: 100%;
+  height: 100%;
+  margin-right: 5px;
+  border: 0;
+  outline: 0;
+  background: none;
+  font-size: 16px;
+}
+.container .password-box span {
+  color: #555;
+  cursor: pointer;
+}
+.container .range-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.container .range-box input {
+  width: 100%;
+  height: 5px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+.range-box .slider-value {
+  font-size: 17px;
+}
+.container .generate-button button {
+  width: 100%;
+  padding: 10px 0px;
+  text-transform: capitalize;
+  background-color: #6961e5;
+  color: #fff;
+  font-size: 16px;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.container .generate-button button:active {
+  transform: scale(0.95);
+}
+/* ==== password box css end ==== */
